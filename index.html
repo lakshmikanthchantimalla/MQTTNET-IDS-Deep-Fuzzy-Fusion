@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MQTT IDS System</title>
+</head>
+<body>
+    <h2>MQTT IDS System</h2>
+    <p>Upload an MQTT traffic CSV dataset for analysis.</p>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="dataset">Select dataset:</label>
+        <input type="file" id="dataset" name="dataset" accept=".csv" required>
+        <button type="submit">Upload and Detect</button>
+    </form>
+</body>
+</html>
